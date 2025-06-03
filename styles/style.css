@@ -34,7 +34,7 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 28px; /* расстояние между пунктами меню навигации */
+  gap: 30px; /* расстояние между пунктами меню навигации */
 }
 
 .header__links-list-item_no-bullit {
@@ -52,7 +52,7 @@
 .header__link {
   color: #000;
   text-decoration: underline;
-  text-underline-offset: 5px; /* определеяем отступ подчеркивания */
+  text-underline-offset: 4px; /* определеяем отступ подчеркивания */
 }
 
 .header__address {
@@ -65,7 +65,7 @@
 
 .address {
   text-decoration: underline;
-  text-underline-offset: 5px; /* определеяем отступ подчеркивания */
+  text-underline-offset: 4px; /* определеяем отступ подчеркивания */
 }
 
 /* ---Конец стилей для меню навигации сайта--- */
@@ -143,7 +143,7 @@
   font-style: normal;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 12px;
+  word-spacing: 19px;
 }
 
 .bet-button {
@@ -163,7 +163,7 @@
 .lots {
   display: grid;
   grid-template-columns: 1fr auto-fill minmax(300px, 1fr); /* адаптивная сетка для карточек лотов */
-  gap: 30px; /* расстояние между кнопкой посмотреть и карточками лотов */
+  gap: 27px; /* расстояние между кнопкой посмотреть и карточками лотов */
   align-items: start; /* выравнивание содержимого по началу */
   padding: 180px 24px 0px; /* внутренние отступы для секции лотов */
   background-color: #fff;
@@ -246,7 +246,7 @@
   font-size: 20px;
   line-height: normal;
   text-decoration: underline;
-  text-underline-offset: 5px; /* определеяем отступ подчеркивания */
+  text-underline-offset: 4px; /* определеяем отступ подчеркивания */
   text-transform: lowercase;
 }
 
@@ -260,7 +260,7 @@
   align-items: start; /* выравнивание содержимого по началу */
   justify-items: center; /* выравнивание содержимого по центру */
   gap: 25px; /* расстояние между колонками */
-  padding: 120px 29px 180px 24px; /* внутренние отступы для секции "О нас" */
+  padding: 155px 29px 180px 24px; /* внутренние отступы для секции "О нас" */
   background-color: #fff;
 }
 
@@ -349,7 +349,7 @@
 
 .footer__menu-link {
   text-decoration: underline; /* подчеркиваем ссылки */
-  text-underline-offset: 5px; /* определеяем отступ подчеркивания */
+  text-underline-offset: 4px; /* определеяем отступ подчеркивания */
 
 }
 
