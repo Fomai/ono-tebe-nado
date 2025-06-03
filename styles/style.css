@@ -102,7 +102,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115%;
+  line-height: 115px; /* 115% */
   text-transform: uppercase;
   word-spacing: 12px;
 }
@@ -165,7 +165,7 @@
   grid-template-columns: 1fr auto-fill minmax(300px, 1fr); /* адаптивная сетка для карточек лотов */
   gap: 30px; /* расстояние между кнопкой посмотреть и карточками лотов */
   align-items: start; /* выравнивание содержимого по началу */
-  padding: 180px 24px 120px; /* внутренние отступы для секции лотов */
+  padding: 180px 24px 0px; /* внутренние отступы для секции лотов */
   background-color: #fff;
 }
 
@@ -257,23 +257,19 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr; /* задаем две колонки: первая фиксированной ширины, вторая занимает оставшееся пространство */
-  align-items: start;  /* выравнивание содержимого по началу */
-  gap: 72px; /* расстояние между колонками */
-  padding: 120px 24px 180px; /* внутренние отступы для секции "О нас" */
+  align-items: start; /* выравнивание содержимого по началу */
+  justify-items: center; /* выравнивание содержимого по центру */
+  gap: 25px; /* расстояние между колонками */
+  padding: 120px 29px 180px 24px; /* внутренние отступы для секции "О нас" */
   background-color: #fff;
-}
-
-.about__column {
-  display: flex;
-  flex-direction: column; /* вертикальное расположение элементов в колонке */
 }
 
 .about__logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 240px; /* задаем ширину логотипа */
-  height: 240px; /* задаем высоту логотипа */
+  width: 240px; 
+  height: 240px;
   border-radius: 50%;
   background-color: #000; /* задаем черный фон для логотипа */
 }
@@ -285,6 +281,11 @@
   background-repeat: no-repeat;
   background-size: cover; /* подгоняем изображение по размеру блока */
   pointer-events: none; /* отключаем любые события мыши для логотипа */
+}
+
+.about__column {
+  display: flex;
+  flex-direction: column; /* вертикальное расположение элементов в колонке */
 }
 
 .about__title {
