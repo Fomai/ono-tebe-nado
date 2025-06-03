@@ -21,7 +21,7 @@ p,
 ul,
 ol,
 li,
-blockquote{
+blockquote {
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -35,8 +35,6 @@ address p {
   text-decoration: none;
 }
 
-
-
 a {
   color: inherit;
   text-decoration: none;
@@ -47,11 +45,11 @@ img {
 }
 
 button {
-  background: none;
+  box-sizing: border-box;
+  margin: 0;
   border: none;
   padding: 0;
-  margin: 0;
   font: inherit;
+  background: none;
   cursor: pointer;
-  box-sizing: border-box;
 }
