@@ -60,7 +60,7 @@
   max-width: 240px;
   font-size: 18px;
   line-height: 135%;
-  text-align: right;
+  text-align: left;
 }
 
 .address {
@@ -289,7 +289,7 @@
 }
 
 .about__title {
-  margin: 90px 0 100px; /* отступы сверху и снизу для заголовка */
+  margin: 100px 0 100px; /* отступы сверху и снизу для заголовка */
   color: #000;
   font-weight: 700;
   font-size: 40px;
